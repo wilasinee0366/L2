@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #754949;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section-header {
+    font-weight: bold;
+    color: #be1212;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.section-content {
+    margin-left: 20px;
+}
+
+.contact {
+    font-size: 18px;
+}
+
+.education,
+.experience {
+    margin-bottom: 20px;
+}
+
+/* CSS for Contact Information */
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* CSS for Education */
+.education-item {
+    margin-bottom: 10px;
+}
+
+/* CSS for Experience */
+.experience-item {
+    margin-bottom: 10px;
+}
